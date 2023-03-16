@@ -10,6 +10,6 @@ module.exports = defineConfig({
     },
 
     env: {
-        api_key:"c3c96a4403ce78a5dcfdbbfe2420a71a038b428261e38da065de818c1f980438"
+        api_key:"107d4e9484cd81cd973fdda9ece2454025c276ff7366d311588dcdf1848c642e"
     }
 });
