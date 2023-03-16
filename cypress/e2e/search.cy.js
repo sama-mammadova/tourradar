@@ -2,7 +2,7 @@ import {TourList} from "../components/tour-list";
 import {SearchResult} from "../components/search-result";
 
 describe('search', () => {
-    it('should search Vienna city tours', () => {
+    it('should search for Vienna city tours', () => {
         cy.visit('/d/europe')
         let query = 'Vienna'
         TourList.searchInput().type(`${query}{enter}`)

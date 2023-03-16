@@ -1,7 +1,7 @@
 import {TourList, TourItem} from "../components/tour-list";
 import {priceAsNumber, isSorted} from "../support/util"
 
-describe('Sort', () => {
+describe('sort', () => {
     it('should sort by price ascending', () => {
         cy.visit('/d/europe')
         TourList.sortButton().select("Total price: Lowest first", {force: true})

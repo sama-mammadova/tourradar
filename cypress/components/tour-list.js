@@ -22,11 +22,9 @@ export class TourList {
 }
 
 export class TourItem {
-
     static emailInput() {
         return cy.get('[data-cy="common-download-brochure--email-input"]')
     }
-
 
     static extractPriceFromTour(tourItem) {
         return tourItem.getElementsByClassName("br__price-wrapper-info-description")[1].innerHTML
